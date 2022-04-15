@@ -1,0 +1,39 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@ui-kitten/components": "^5.1.1",
+    "axios": "^0.21.4",
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "js-cookie": "^3.0.1",
+    "macd": "^1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "~0.13.12",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "prettier-eslint": "^13.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2"
+  },
+  "private": true
+}
